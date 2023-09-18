@@ -62,7 +62,7 @@
             {%for i in lastgames%}
             <td>{{i.language.capitalize()}}</td>
             <td>{{i.wpm}}</td>
-            <td>{{i.points}}</td>
+            <td>{{i.points|round(2,'floor')}}</td>
             <td>{{i.mistakes}}</td>
             <td>{{i.date}}</td>
         </tr>

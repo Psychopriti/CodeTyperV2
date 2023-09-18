@@ -54,7 +54,7 @@
                 {%for i in top%}
                 <td>{{i.name}}</td>
                 <td>{{i.language.capitalize()}}</td>
-                <td>{{i.points}}</td>
+                <td>{{i.points|round(2,'floor')}}</td>
                 <td>{{i.wpm}}</td>
                 <td>{{i.cpm}}</td>
             </tr>

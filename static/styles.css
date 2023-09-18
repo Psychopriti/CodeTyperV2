@@ -453,3 +453,7 @@ tr:nth-child(odd) {
   display: inline-block;
   color: white;
 }
+
+#tip{
+  color: #FFFFFF;
+}
