@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'CodeTyper'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5CF44082161443D2B54ED35D905B026B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7FF9A68D77764DAC949E01C4E1FF125A }}
